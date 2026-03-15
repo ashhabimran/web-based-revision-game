@@ -1,0 +1,495 @@
+/*-----------For all pages------------*/
+.subbutton{
+	width: 10em;
+	max-width: 50em;
+	display:inline-block;
+	border:0.1em solid #86a8e7;
+	margin:-0.3em 0.3em 0.3em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	font-size: 1em;
+	color:#000000;
+	background: linear-gradient(to right, #86a8e7,#91eae4);
+	text-align:center;
+	transition: all 0.2s;
+
+}
+.subbutton:hover{
+	color:#fff;
+	background-color:#7CC1F2;
+}
+@media all and (max-width:50em){
+	.subbutton{
+		display:block;
+		margin:0.4em auto;
+		}
+}
+
+h1{
+	font-size: 3em;
+	background-color: blue;
+	background-image: linear-gradient(to left, #86a8e7,#91eae4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+body{
+	color: white;
+	background-color: #303034;
+	font-family: "Fixed-width", monospace;
+	overflow-y: scroll;
+	text-align: center;
+}
+
+/*-----------header------------*/
+
+#na{
+	background-color:#7CC1F2;
+	background: linear-gradient(to right, #86a8e7,#91eae4);
+	box-shadow:0 0 1em rgba(0,0,0,0.3);
+	position:fixed;
+	top:0;
+	left: 0;
+	width:100%; height:4.2em;
+	text-align:right;
+}
+
+#na a{
+	margin:0;
+	padding:0;
+	height:100%;
+	line-height:4.25em;
+	display:inline-block;
+	text-align:center;
+	color:#000000;
+	padding-left:1em;
+	padding-right:1em;
+	text-decoration:none !important;
+	font-family:'Lato', sans-serif;
+
+	font-size:1em;
+	font-weight:900;
+	text-decoration:none !important;
+/*	transition: background-color 0.2s;*/
+	text-transform:uppercase;
+	letter-spacing:-0.03em;
+}
+#na a:hover{
+	background-color:rgba(0,5,20,0.3);
+}
+#na a:active{
+	background-color:rgba(0,5,20,0.4);
+}
+
+#logo{
+	font-size:1.95em;
+	line-height:2.17em;
+	font-family:'Papyrus', fantasy;
+	color:#000000;
+	opacity:0.77;
+	display:inline-block;
+	width:auto;
+	margin-right:2em;
+	margin-left: 1em;
+	float:left;
+	font-weight:900;
+	text-transform:uppercase;
+	letter-spacing:-0.01em;
+}
+
+/*---------home---------*/
+#bigLogo{
+	margin-top: 1.5em;
+	font-size: 10em;
+}
+
+#sometxt{
+	color: #cccdcf;
+	position: relative;
+	top: -3em;
+}
+
+
+/*---------input_question_form---------*/
+#customize{
+	position: relative;
+	width: 100%;
+	top: 3em;
+	font-size: 1.5em;
+	font-family: "Fixed-width", monospace;
+	text-align: center;
+}
+
+#inputWrapper{
+	display: inline-block;
+	text-align: left;
+}
+
+#customize label{
+	display: inline-block;
+	width: 5em;
+}
+
+#customize input{
+	font-size: 0.7em;
+	font-family: "Fixed-width", monospace;
+	background-color: #303034;
+	color: white;
+	border: solid;
+}
+
+#customize .error{
+	color: #F64F59;
+	font-size: 0.83em;
+}
+
+
+/*------------select-form------------*/
+#select{
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: "Fixed-width", monospace;
+}
+
+#type ,#course ,#topic{
+	font-size: 1em;
+	width: 15.5em;
+	text-align: center;
+	font-family: "Fixed-width", monospace;
+}
+
+#select select{
+	background-color: #303034;
+	color: white;
+	border: solid;
+}
+
+/*---------userReviews----------*/
+#review{
+	display: inline-block;
+	margin: auto;
+	width: 100%;
+	align-content: center;
+}
+
+#reviewlist{
+	font-family: "Fixed-width", monospace;
+	margin-top: 3em;
+}
+#reviewlist th, td{
+	padding: 0.25em 0.5em;
+	text-align: center;
+}
+
+#reviewlist th{
+	background-color: #7CC1F2;
+	color: black;
+}
+
+#reviewlist td{
+	background-color: #eee;
+	color: black;
+}
+
+
+/*--------------result------------*/
+#resultform{
+  width: 100%;
+  text-align: center;
+  padding-top: 8em;
+  font-size: 1.5em;
+
+}
+
+/*------------main_game------------*/
+#game{
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	top: 3em;
+	font-size: 1em;
+	font-family: "Fixed-width", monospace;
+}
+
+#userID{
+	color: #509afa;
+	font-weight: bold;
+
+}
+#bossID{
+	color: #fa5072;
+	font-weight: bold;
+
+}
+
+progress {
+  border: solid;
+  width: 10em;
+  height: 0.7em;
+  background: white;
+  color: white;
+}
+
+progress::-webkit-progress-value {
+  background: red;
+}
+
+progress::-webkit-progress-bar {
+  background: #303034;
+}
+
+#options{
+	text-align: left;
+	display: inline-block;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#ques{
+	font-size: 2em;
+	color:#7CC1F2 ;
+}
+
+#conver{
+	font-size: 1.4em;
+	width: 60%;
+	display: inline-block;
+	text-align: center;
+	border: solid;
+	border-radius: 1em;
+	background-color: #262629;
+}
+#img{
+	position: relative;
+}
+
+#imgchar{
+	position: absolute;
+	top: 0;
+	left: 5em;
+
+}
+#imgboss{
+	position: absolute;
+	top: 0;
+	right: 5em;
+}
+
+
+/*--------------login---------------*/
+
+.ftsco-section{
+	padding: 12em 0;
+}
+
+.container {
+	width: 100%;
+	padding-top: 160px;
+  padding-left: 1150px;
+  margin-right: auto;
+  margin-left: auto; 
+  font-family: "Poppins", sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 1.5rem;
+	text-align: left;
+
+}
+  @media (min-width: 476px) {
+    .container {
+      max-width: 440px; } }
+
+/*username*/
+.input_field{
+	position: relative;
+	display: block;
+	width: 60%;
+	color: #aaa;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: 0;
+	border-bottom: 0.15em solid #8cfffb;
+	outline: 0;
+	font-size: 1em;
+	color: #fff;
+	padding: 0.8em;
+	padding-bottom: 0;
+	background: transparent;
+	transition: border-color 0.2s;
+
+}
+
+::-webkit-input-placeholder{
+	color: transparent;
+}
+
+:placeholder-shown ~ .input_label{
+	font-size: 1.3rem;
+	cursor: text;
+	top: 7.5em;
+}
+
+.input_label{
+	padding-top: 13.25em;
+	padding-bottom: 5em;
+	position: absolute;
+	top: 7.5em;
+	display: block;
+	transition: 0.2s;
+	font-size: 1.2rem;
+	color: #8cfffb;
+}
+
+.input_field:focus{
+	font-weight: 700;
+	border-width: 0.15em;
+	border-image: linear-gradient(to right, #70e1f5, #ffd194);
+	border-image-slice: 1;
+}
+
+.input_field:focus ~ .input_label{
+	position: absolute;
+	top: 3em;
+	display: block;
+	transition: 0.2s;
+	font-size: 1.5rem;
+	color: #70e1f5;
+	font-weight: 700;
+}
+
+/*password*/
+.input_field2{
+	position: relative;
+	display: block;
+	width: 60%;
+	color: #aaa;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: 0;
+	border-bottom: 0.15em solid #8cfffb;
+	
+	outline: 0;
+	font-size: 1em;
+	color: #fff;
+	padding: 0.8em;
+	padding-bottom: 0;
+	background: transparent;
+	transition: border-color 0.2s;
+
+}
+
+::-webkit-input-placeholder{
+	color: transparent;
+}
+
+.input_field2:placeholder-shown ~ .input_label2{
+	font-size: 1.3rem;
+	cursor: text;
+	top: 7em;
+}
+
+.input_label2{
+	padding-top: 18.7em;
+	position: absolute;
+	top: 7.5em;
+	display: block;
+	transition: 0.2s;
+	font-size: 1.2rem;
+	color: #8cfffb;
+}
+
+.input_field2:focus{
+	font-weight: 700;
+	border-width: 0.15em;
+	border-image: linear-gradient(to right, #70e1f5, #ffd194);
+	border-image-slice: 1;
+}
+
+.input_field2:focus ~ .input_label2{
+	position: absolute;
+	top: 2em;
+	display: block;
+	transition: 0.2s;
+	font-size: 1.5rem;
+	color: #70e1f5;
+	font-weight: 700;
+}
+
+/*link to register*/
+.container a{
+	color: #fff;
+}
+
+.container a:hover{
+	color: #8cfffb;
+}
+
+
+
+/*--------------register------------*/
+/*confirm password*/
+.input_field3{
+	position: relative;
+	display: block;
+	width: 60%;
+	color: #aaa;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: 0;
+	border-bottom: 0.15em solid #8cfffb;
+	outline: 0;
+	font-size: 1em;
+	color: #fff;
+	padding: 0.8em;
+	padding-bottom: 0;
+	background: transparent;
+	transition: border-color 0.2s;
+
+}
+
+::-webkit-input-placeholder{
+	color: transparent;
+}
+
+.input_field3:placeholder-shown ~ .input_label3{
+	font-size: 1.3rem;
+	cursor: text;
+	top: 7em;
+}
+
+.input_label3{
+	padding-top: 24.25em;
+	position: absolute;
+	top: 7.5em;
+	display: block;
+	transition: 0.2s;
+	font-size: 1.2rem;
+	color: #8cfffb;
+}
+
+.input_field3:focus{
+	font-weight: 700;
+	border-width: 0.15em;
+	border-image: linear-gradient(to right, #70e1f5, #ffd194);
+	border-image-slice: 1;
+}
+
+.input_field3:focus ~ .input_label3{
+	position: absolute;
+	top: 1em;
+	display: block;
+	transition: 0.2s;
+	font-size: 1.5rem;
+	color: #70e1f5;
+	font-weight: 700;
+}

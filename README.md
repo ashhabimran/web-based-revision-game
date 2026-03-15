@@ -1,2 +1,2 @@
 # web-based-revision-game
-An interactive web application designed to support revision through quiz-based learning, featuring user authentication and a browser-based game interface.
+A web-based quiz application designed to help students revise through interactive questions, featuring user login and browser-based gameplay.
